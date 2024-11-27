@@ -5,16 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LitTask - Задания</title>
     <link rel="stylesheet" href="styles/main.css">
-    <script>
-        // Проверка, авторизован ли пользователь
-        window.onload = function() {
-            // Проверяем, есть ли данные о пользователе в localStorage
-            if (!localStorage.getItem('userLoggedIn')) {
-                // Если нет, перенаправляем на страницу профиля
-                window.location.href = 'profile.html';
-            }
-        };
-    </script>
 </head>
 <body>
 
@@ -26,6 +16,7 @@
     <nav>
         <a href="index.html" class="menu-item">Главная</a>
         <a href="profile.html" class="menu-item">Профиль</a>
+        <a href="login.html" class="menu-item">Вход</a>
     </nav>
 </header>
 
